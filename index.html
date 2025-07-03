@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>무료 고객응대 AI 챗봇</title>
+  <style>
+    body { font-family: sans-serif; max-width: 600px; margin: auto; padding: 20px; }
+    #chatbox { border: 1px solid #ccc; padding: 10px; height: 300px; overflow-y: auto; margin-bottom: 10px; }
+    .user { color: blue; margin-bottom: 5px; }
+    .bot { color: green; margin-bottom: 10px; }
+    input, button { padding: 10px; font-size: 16px; }
+  </style>
+</head>
+<body>
+  <h2>AI 고객응대 챗봇 (무료 버전)</h2>
+  <div id="chatbox"></div>
+  <input type="text" id="userInput" placeholder="무엇이든 물어보세요" />
+  <button onclick="sendMessage()">전송</button>
+
+  <script src="chatbot.js"></script>
+</body>
+</html>
