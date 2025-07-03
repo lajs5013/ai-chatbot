@@ -29,6 +29,8 @@ function getBotReply(message) {
     return '환불은 제품 수령 후 7일 이내 가능합니다.';
   } else if (lower.includes('재입고')) {
     return '인기 상품의 경우 2주 이내 재입고 예정입니다.';
+  } else if (lower.includes('가격')) {
+    return '100매당 1,000원 200매당 2,000원';
   } else {
     const responses = [
       '죄송해요, 조금만 더 자세히 말씀해 주시겠어요?',
